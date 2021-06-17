@@ -1,5 +1,5 @@
 # Fee
-This software will take 1% hashrate as the fee to the developer.
+This software will take 1% hashrate as the fee to the develop contributer.
 
 # Install
 System require: Recommend to use the system as Ubuntu, Hiveos.
