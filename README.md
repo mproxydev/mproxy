@@ -17,28 +17,28 @@ Enter the miner machine system, install the progress, you can use the command as
   
 # Cmd
 
-open the mproxy to work:  
+Open the mproxy to work:  
 `mproxy --switch=on`
 
-close the mproxy:  
+Close the mproxy:  
 `mproxy --switch=off`
 
-restart the mproxy:  
+Restart the mproxy:  
 `mproxy --restart`
 
-set the taxer miner account, it can be address or pool account:  
+Set the taxer miner account, it can be address or pool account:  
 `mproxy --taxer=0xaaabbbbbb`    
 
-update the proxy soft, should input the minerproxy_update.tgz url of your web server.  
+Update the proxy soft, must input the minerproxy_update.tgz url of your web server.  
 `mproxy --update='http://192.168.0.111/minerproxy_update.tgz'`
 
-print the config and status:  
+Print the config and status:  
 `mproxy --info`
 
-set the tax rate, for example set to 5%:  
+Set the tax rate, for example set to 5%:  
 `mproxy --taxrate=0.05`
 
-set local hashrate, for example set to 95%:  
+Set local hash rate, for example set to 95%:  
 `mproxy --localrate=0.95`
 
 
