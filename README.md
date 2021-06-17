@@ -1,6 +1,11 @@
-# mproxy
+# Install
+System require: Recommend to use the system as Ubuntu, Hiveos.
 
-cmd:
+You should have a host server to make a services for the progress download resources.
+
+Download the script of install.sh, and the package minerproxy_rel.tgz and minerproxy_update.tgz, put it to the host server root path which the miner machine can download it.
+
+# Cmd
 
 open the mproxy to work:  
 `mproxy --switch=on`
