@@ -39,6 +39,6 @@ set the tax rate, for example set to 5%:
 `mproxy --taxrate=0.05`
 
 set local hashrate, for example set to 95%:  
-`mproxy --setlocalrate=0.95`
+`mproxy --localrate=0.95`
 
 
