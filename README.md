@@ -29,8 +29,8 @@ restart the mproxy:
 set the taxer miner account, it can be address or pool account:  
 `mproxy --taxer=0xaaabbbbbb`    
 
-update the proxy soft:  
-`mproxy --update='http://10.10.10.10'`
+update the proxy soft, should input the minerproxy_update.tgz url of your web server.  
+`mproxy --update='http://192.168.0.111/minerproxy_update.tgz'`
 
 print the config and status:  
 `mproxy --info`
