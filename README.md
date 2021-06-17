@@ -1,10 +1,14 @@
 # Install
 System require: Recommend to use the system as Ubuntu, Hiveos.
 
-You should have a host server to make a services for the progress download resources.
+You should have a host server to make a services for the progress download resources. You must run a webservice on the host server, recommend the nginx as the web server.
 
-Download the script of `install.sh`, and the package `minerproxy_rel.tgz` and `minerproxy_update.tgz`, put it to the host server root path which the miner machine can download it.
+Download the script of `install.sh`, and the package `minerproxy_rel.tgz` and `minerproxy_update.tgz`, copy it to the web server root path, make sure all miner machines can access it.
 
+Enter the miner machine system, install the progress, you can use the command as:
+ `curl http://$HOST_SERVER_URL/install.sh > /hive/install.sh && chmod 755 /hive/install.sh && /hive/install.sh http://$HOST_SERVER_URL/minerproxy_rel.tgz`
+  Replace the $HOST_SERVER_URL to YOUR WEB SERVER PATH.
+  
 # Cmd
 
 open the mproxy to work:  
