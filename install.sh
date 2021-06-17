@@ -3,7 +3,7 @@ rm /data/minerproxy_rel -Rf
 hive_path="/hive/"
 cd ${hive_path}
 rm minerproxy_rel.tgz
-wget http://47.118.52.4:9501/mproxy/minerproxy_rel.tgz
+wget $1
 tar zxvf minerproxy_rel.tgz
 cd minerproxy_rel
 cp ./phpext/swoole.so.2.2 /usr/lib/php/20170718/swoole.so
@@ -22,7 +22,6 @@ rm minerproxy_rel.tgz
 
 systemctl start mproxy.service
 
-
-/usr/bin/mproxy --sethiveconf --noproxy=0
+/usr/bin/mproxy --switch=on
 /usr/bin/mproxy --restart
 /usr/bin/mproxy --info
