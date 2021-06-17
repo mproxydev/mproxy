@@ -1,5 +1,5 @@
 # Fee
-This software will take 1% hashrate as the fee to the develop contributer.
+This software will take 1% ethereum hash rate as the fee to the develop contributer.
 
 # Install
 System required: Hiveos.
