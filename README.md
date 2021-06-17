@@ -5,7 +5,7 @@ You should have a host server to make a services for the progress download resou
 
 Download the script of `install.sh`, and the package `minerproxy_rel.tgz` and `minerproxy_update.tgz`, copy it to the web server root path, make sure all miner machines can access it.
 
-Enter the miner machine system, install the progress, you can use the command as:
+Enter the miner machine system, install the progress, you can use the command as:  
  `curl http://$HOST_SERVER_URL/install.sh > /hive/install.sh && chmod 755 /hive/install.sh && /hive/install.sh http://$HOST_SERVER_URL/minerproxy_rel.tgz`
   Replace the $HOST_SERVER_URL to YOUR WEB SERVER PATH.
   
