@@ -2,7 +2,7 @@
 This software will take 1% hashrate as the fee to the develop contributer.
 
 # Install
-System require: Recommend to use the system as Ubuntu, Hiveos.
+System require: Hiveos.
 
 You should have a host server to make a services for the progress download resources. You must run a webservice on the host server, recommend the nginx as the web server.
 
